@@ -26,8 +26,7 @@ for link in page_links:
         description = " ".join(part.strip() for part in description_parts).replace("\n", "")
         parsed_pre_req = re.split(r'[.!?;]', pre_req) if pre_req else None
         parsed_pre_req = [s.strip() for s in parsed_pre_req if s.strip()] if parsed_pre_req else None
-        recommended = [s for s in parsed_pre_req if "recommended" in s] if parsed_pre_req else None
-        print(recommended)
+        recommended = [s for s in parsed_pre_req if "recommended" in s] if parsed_pre_req else None 
         for a in course.find_all('a'):
             if a.get('href') != "http://www.bu.edu/hub/what-is-the-hub/":
                 link = urljoin(url, a.get('href')).strip()

@@ -42,8 +42,7 @@
   {
     "name": "CAS CS 112: Introduction to Computer Science 2",
     "prerequisites": [
-      "Undergraduate Prerequisites: CAS CS 111",
-      "or equivalent"
+      "CAS CS 111 or equivalent"
     ],
     "link": "https://www.bu.edu/academics/cas/courses/cas-cs-112/",
     "description": "Covers advanced programming techniques and data structures. Topics include    recursion, algorithm analysis, linked lists, stacks, queues, trees, graphs,    tables, searching, and sorting. Carries MCS divisional credit in CAS.  Effective  Fall 2018, this course  fulfills a single unit in the following  BU Hub areas:  Quantitative Reasoning II, Creativity/Innovation, Critical  Thinking.",
@@ -53,7 +52,7 @@
   {
     "name": "CAS CS 115: Academic Writing in Computer Science",
     "prerequisites": [
-      "Undergraduate Prerequisites: CAS WR 120 or equivalent",
+      "CAS WR 120 or equivalent",
       "CAS CS 111"
     ],
     "link": "https://www.bu.edu/academics/cas/courses/cas-cs-115/",
@@ -71,7 +70,9 @@
   },
   {
     "name": "CAS CS 132: Geometric Algorithms",
-    "prerequisites": ["Undergraduate Prerequisites: CAS CS 111 and CAS MA 123"],
+    "prerequisites": ["CAS CS 111",
+    "CAS MA 123"
+    ],
     "link": "https://www.bu.edu/academics/cas/courses/cas-cs-132/",
     "description": "Basic concepts, data structures, and algorithms for geometric objects.   Examples of topics:  Cartesian geometry, transformations and their   representation, queries and sampling,  triangulations. Emphasis on rigorous   reasoning and analysis, advancing algorithmic maturity  and expertise in its   application. Effective Fall 2019, this course fulfills a single unit in the  following BU Hub   areas: Quantitative Reasoning II, Digital/Multimedia Expression.",
     "consent": false,
@@ -87,7 +88,7 @@
   },
   {
     "name": "CAS CS 210: Computer Systems",
-    "prerequisites": ["Undergraduate Prerequisites: CAS CS 112"],
+    "prerequisites": ["CAS CS 112"],
     "link": "https://www.bu.edu/academics/cas/courses/cas-cs-210/",
     "description": "Fundamental concepts of computer systems and systems programming. Hardware   fundamentals including digital logic, memory systems, processor design, buses,  I/O  subsystems, data representations, computer arithmetic, and instruction- set  architecture. Software concepts including assembly language programming,  operating  systems, assemblers, linkers, and systems programming in C.  Effective Fall 2018, this course fulfills a  single unit in the following BU  Hub area: Quantitative Reasoning II.",
     "consent": false,
@@ -103,7 +104,7 @@
   },
   {
     "name": "CAS CS 237: Probability in Computing",
-    "prerequisites": ["Undergraduate Prerequisites: CAS CS 131"],
+    "prerequisites": ["CAS CS 131"],
     "link": "https://www.bu.edu/academics/cas/courses/cas-cs-237/",
     "description": "Introduction to basic probabilistic concepts and methods used in computer  science. Develops an understanding of the crucial role played by randomness in  computing, both as a powerful tool and as a challenge to confront and analyze.  Emphasis on rigorous reasoning, analysis, and algorithmic thinking. Effective  Fall 2018, this course fulfills a single unit in each of the following BU Hub  areas: Quantitative Reasoning II, Critical Thinking.",
     "consent": false,
@@ -111,7 +112,7 @@
   },
   {
     "name": "CAS CS 320: Concepts of Programming Languages",
-    "prerequisites": ["Undergraduate Prerequisites: CAS CS 131 and CAS CS 210"],
+    "prerequisites": ["CAS CS 131", "CAS CS 210"],
     "link": "https://www.bu.edu/academics/cas/courses/cas-cs-320/",
     "description": "Concepts involved in the design of programming languages. Bindings, argument  transmission, and control structures. Environments: compile-time, load-time, and  run-time. Interpreters.  Effective Fall 2019, this course fulfills a single unit  in the following BU Hub area: Creativity/Innovation.",
     "consent": false,
@@ -120,8 +121,10 @@
   {
     "name": "CAS CS 330: Introduction to Analysis of Algorithms",
     "prerequisites": [
-      "Undergraduate Prerequisites: CASCS112, CASCS131, and CASCS132",
-      "or CASCS235 or CASCS237"
+      "CASCS112",
+      "CASCS131",  
+      "CASCS132",
+      "CASCS235 or CASCS237"
     ],
     "link": "https://www.bu.edu/academics/cas/courses/cas-cs-330/",
     "description": "Examines the basic principles of algorithm design and analysis; graph   algorithms; greedy algorithms; dynamic programming; network flows; polynomial-  time reductions; NP-hard and NP-complete problems; approximation algorithms;   randomized algorithms. Effective Fall 2018, this course fulfills a single unit  in each of the  following BU Hub areas: Quantitative Reasoning II, Critical  Thinking.",
@@ -130,7 +133,7 @@
   },
   {
     "name": "CAS CS 332: Elements of the Theory of Computation",
-    "prerequisites": ["Undergraduate Prerequisites: CAS CS 330"],
+    "prerequisites": ["CAS CS 330"],
     "link": "https://www.bu.edu/academics/cas/courses/cas-cs-332/",
     "description": "The basic concepts of the theory of computation are studied. Topics include models of computation, polynomial time, Church's thesis; universal algorithms, undecidability and intractability; time and space complexity, nondeterminism, probabilistic computation and reductions of computational problems.",
     "consent": false,
@@ -138,7 +141,7 @@
   },
   {
     "name": "CAS CS 350: Fundamentals of Computing Systems",
-    "prerequisites": ["Undergraduate Prerequisites: CAS CS 210 and CAS CS 237"],
+    "prerequisites": ["CAS CS 210", "CAS CS 237"],
     "link": "https://www.bu.edu/academics/cas/courses/cas-cs-350/",
     "description": "Rigorous treatment of invariant concepts, algorithms, and performance evaluation methods underlying computing systems design. Topics include modeling and analysis of concurrent processing, computational  resource scheduling and consumption, and performance evaluation techniques.",
     "consent": false,
@@ -147,8 +150,7 @@
   {
     "name": "CAS CS 357: Introduction to Information Security",
     "prerequisites": [
-      "Undergraduate Prerequisites: CAS CS 210",
-      "or consent of instructor"
+      "CAS CS 210"
     ],
     "link": "https://www.bu.edu/academics/cas/courses/cas-cs-357/",
     "description": "Provides basic concepts needed for understanding information security. Discusses  vulnerabilities, design principles, basic algorithms, security definitions, and  analytical methods. Covers system security, network security, web security,  cryptography, and data privacy. Also addresses social, ethical, and policy  aspects of security.",
@@ -158,14 +160,15 @@
   {
     "name": "CAS CS 365: Foundations of Data Science",
     "prerequisites": [
-      "Undergraduate Prerequisites: CAS CS112 and CAS CS131 and CAS CS132 and CAS CS237 (or equivalent)",
-      "Or consent of instructor",
-      "Recommended: CAS CS330"
+      "CAS CS112", 
+      "CAS CS131",
+      "CAS CS132",
+      "CAS CS237"
     ],
     "link": "https://www.bu.edu/academics/cas/courses/cas-cs-365/",
     "description": "Lays the foundation towards more advanced data-intensive classes, such as Data  Science, Machine Learning, Data Mining. The course provides an understanding of  the fundamentals and the practical implications of concepts. It covers both  theoretical skills as well as working/practical knowledge.",
     "consent": true,
-    "recommended": null
+    "recommended": "CAS CS330"
   },
   {
     "name": "CAS CS 391: Topics in Computer Science",
@@ -186,7 +189,7 @@
   {
     "name": "CAS CS 401: Senior Independent Work",
     "prerequisites": [
-      "Undergraduate Prerequisites: approval of the Honors Committee"
+      "approval of the Honors Committee"
     ],
     "link": "https://www.bu.edu/academics/cas/courses/cas-cs-401/",
     "description": "Effective Fall 2022, this course fulfills a single unit in the following BU Hub  area: Research and Information Literacy.",
@@ -196,7 +199,7 @@
   {
     "name": "CAS CS 402: Senior Independent Work",
     "prerequisites": [
-      "Undergraduate Prerequisites: approval of the Honors Committee"
+      "approval of the Honors Committee"
     ],
     "link": "https://www.bu.edu/academics/cas/courses/cas-cs-402/",
     "description": "Effective Spring 2023, this course fulfills a single unit in the following BU Hub  area: Oral and/or Signed Communication.",
@@ -205,7 +208,7 @@
   },
   {
     "name": "CAS CS 410: Advanced Software Systems",
-    "prerequisites": ["Undergraduate Prerequisites: CAS CS 210"],
+    "prerequisites": ["CAS CS 210"],
     "link": "https://www.bu.edu/academics/cas/courses/cas-cs-410/",
     "description": "Systems programming including such topics as project management, tools, I/O networking, multiprocessing, exception handling, and system services. Other topics are explored using C and Perl under the UNIX operating system. Requires a working knowledge of the C programming language and experience with UNIX as a user, or equivalent.",
     "consent": false,
@@ -213,7 +216,7 @@
   },
   {
     "name": "CAS CS 411: Software Engineering",
-    "prerequisites": ["Undergraduate Prerequisites: CAS CS 112"],
+    "prerequisites": ["CAS CS 112"],
     "link": "https://www.bu.edu/academics/cas/courses/cas-cs-411/",
     "description": "Introduction to the construction of reliable software. Topics may include   software tools,  software testing methodologies, retrofitting, regression   testing, structured design and  structured programming, software   characteristics and quality, complexity, entropy, deadlock,  fault tolerance,   formal proofs of program correctness, chief program teams, and structured    walk-throughs. Effective Fall 2019, this course fulfills a single unit in each  of the following  BU  Hub area: Teamwork/Collaboration.",
     "consent": false,
@@ -222,10 +225,9 @@
   {
     "name": "CAS CS 412: Full-Stack Application Design and Development",
     "prerequisites": [
-      "Undergraduate Prerequisites: CAS CS 111",
+      "CAS CS 111",
       "CAS CS 112",
-      "CAS CS 411",
-      "or consent of instructor"
+      "CAS CS 411"
     ],
     "link": "https://www.bu.edu/academics/cas/courses/cas-cs-412/",
     "description": "Introduction to design and development of full-stack web applications. Topics include asynchronous programming; non-relational data stores; use of APIs; serverless (cloudbased) applications; decoupled client/server architectures; performance; testing; packaging; and deployment. Examines current and proposed technology stacks.",
@@ -234,7 +236,8 @@
   },
   {
     "name": "CAS CS 440: Introduction to Artificial Intelligence",
-    "prerequisites": ["Undergraduate Prerequisites: CAS CS 112 and CAS CS 132"],
+    "prerequisites": ["CAS CS 112",
+    "CAS CS 132"],
     "link": "https://www.bu.edu/academics/cas/courses/cas-cs-440/",
     "description": "Introduction to computer systems that exhibit intelligent behavior, in particular, perceptual and robotic  systems. Topics include human computer interfaces, computer vision, robotics, game playing, pattern  recognition, knowledge representation, planning.",
     "consent": false,
@@ -242,7 +245,7 @@
   },
   {
     "name": "CAS CS 451: Distributed Systems",
-    "prerequisites": ["Undergraduate Prerequisites: CAS CS 210"],
+    "prerequisites": ["CAS CS 210"],
     "link": "https://www.bu.edu/academics/cas/courses/cas-cs-451/",
     "description": "Programming-centric introduction to how networks of computers are structured to operate as coherent single systems. Introducing principles of architecture, processes, communications, naming, synchronization, consistency and replication, fault tolerance and security, and paradigms such as web-based, object-based, file system, and consistency-based.",
     "consent": false,
@@ -250,7 +253,7 @@
   },
   {
     "name": "CAS CS 454: Embedded Systems Development",
-    "prerequisites": ["Undergraduate Prerequisites: CAS CS 210"],
+    "prerequisites": ["CAS CS 210"],
     "link": "https://www.bu.edu/academics/cas/courses/cas-cs-454/",
     "description": "Lab-based course exploring concepts, techniques, best practices, and tools for the  development of connected embedded systems, including: signal processing; sensing, control  and actuation; programming and debugging on microprocessors; 1/0 interfacing and  development of device drivers; and time-critical data handling.",
     "consent": false,
@@ -258,7 +261,7 @@
   },
   {
     "name": "CAS CS 455: Computer Networks",
-    "prerequisites": ["Undergraduate Prerequisites: CAS CS 210"],
+    "prerequisites": ["CAS CS 210"],
     "link": "https://www.bu.edu/academics/cas/courses/cas-cs-455/",
     "description": "Concepts underlying the design of high-performance computer networks and scalable   protocols. Topics include Internet design principles and methodology, TCP/IP   implementation, packet switching and routing algorithms, multicast, quality of service considerations, error detection and correction, and performance evaluation.",
     "consent": false,
@@ -266,7 +269,7 @@
   },
   {
     "name": "CAS CS 460: Introduction to Database Systems",
-    "prerequisites": ["Undergraduate Prerequisites: CAS CS 112"],
+    "prerequisites": ["CAS CS 112"],
     "link": "https://www.bu.edu/academics/cas/courses/cas-cs-460/",
     "description": "Introduction to database management systems. Examines entity-relationship, relational, and object-oriented data models; commercial query languages: SQL, relational algebra, relational calculus, and QBE; file organization, indexing and hashing, query optimization, transaction processing, concurrency control and recovery,integrity, and security.",
     "consent": false,
@@ -274,7 +277,7 @@
   },
   {
     "name": "CAS CS 480: Introduction to Computer Graphics",
-    "prerequisites": ["Undergraduate Prerequisites: CAS CS 112 and CAS CS 132"],
+    "prerequisites": ["CAS CS 112", "CAS CS 132"],
     "link": "https://www.bu.edu/academics/cas/courses/cas-cs-480/",
     "description": "Introduction to computer graphics algorithms, programming methods, and  applications. Focus on fundamentals of two- and three-dimensional raster  graphics: scan-conversion, clipping, geometric transformations, and camera  modeling. Introduces concepts in computational geometry, computer-human  interfaces, animation, and visual realism. Effective Fall 2019, this course  fulfills a single unit in the following BU Hub area: Digital/Multimedia  Expression.",
     "consent": false,
@@ -283,7 +286,7 @@
   {
     "name": "CAS CS 491: Directed Study",
     "prerequisites": [
-      "Undergraduate Prerequisites: sophomore or higher standing, consent of instructor, and a completed Directed Study Application form"
+      "sophomore or higher standing, consent of instructor, and a completed Directed Study Application form"
     ],
     "link": "https://www.bu.edu/academics/cas/courses/cas-cs-491/",
     "description": "Independent study in Computer Science under the guidance of a faculty member. Student and   supervising faculty member arrange and document expectations and requirements. Examples   include internship opportunities for academic credit, in-depth study of a special topic, or   independent research project.",
@@ -293,7 +296,7 @@
   {
     "name": "CAS CS 492: Directed Study",
     "prerequisites": [
-      "Undergraduate Prerequisites: sophomore or higher standing, consent of instructor, and a completed Directed Study Application form"
+      "sophomore or higher standing, consent of instructor, and a completed Directed Study Application form"
     ],
     "link": "https://www.bu.edu/academics/cas/courses/cas-cs-492/",
     "description": "Independent study in Computer Science under the guidance of a faculty member. Student and   supervising faculty member arrange and document expectations and requirements. Examples   include internship opportunities for academic credit, in-depth study of a special topic, or   independent research project.",
@@ -310,7 +313,7 @@
   },
   {
     "name": "CAS CS 505: Introduction to Natural Language Processing",
-    "prerequisites": ["Undergraduate Prerequisites: CAS CS 365"],
+    "prerequisites": ["CAS CS 365"],
     "link": "https://www.bu.edu/academics/cas/courses/cas-cs-505/",
     "description": "Natural language processing (NLP) is a field of AI which aims to equip computers with the  ability to intelligently process natural (human) language. This course explores statistical and  machine learning techniques for the automatic analysis of natural language data.",
     "consent": false,
@@ -319,9 +322,8 @@
   {
     "name": "CAS CS 506: Data Science Tools and Applications",
     "prerequisites": [
-      "Undergraduate Prerequisites: CAS CS 108 or CAS CS 111",
-      "CAS CS 132 or CAS MA 242 or CAS MA 442",
-      "CASCS 112 is recommended"
+      "CAS CS 108 or CAS CS 111",
+      "CAS CS 132 or CAS MA 242 or CAS MA 442"
     ],
     "link": "https://www.bu.edu/academics/cas/courses/cas-cs-506/",
     "description": "Covers practical skills in working with data and introduces a wide range of  techniques that are   commonly used in the analysis of data, such as clustering,  classification, regression, and   network analysis. Emphasizes hands-on  application of methods via programming. Effective Fall  2019, this course  fulfills a single unit in each of the following BU Hub areas: Research and   Information Literacy, Teamwork/Collaboration.",
@@ -331,7 +333,7 @@
   {
     "name": "CAS CS 511: Formal Methods 1",
     "prerequisites": [
-      "Undergraduate Prerequisites: CAS CS 320 or CAS CS 330 or CAS CS 350"
+      "CAS CS 320 or CAS CS 330 or CAS CS 350"
     ],
     "link": "https://www.bu.edu/academics/cas/courses/cas-cs-511/",
     "description": "Introduction to formal specification, analysis, and verification of computer system behavior.    Topics include formal logical reasoning about computer programs and systems, automated and    semi-automated verification, and algorithmic methodologies for ascertaining that a software    system satisfies its formally specified properties. Cannot be taken for credit in addition to the   course with the same number formerly entitled \"Object-Oriented Software Principles.\"",
@@ -341,8 +343,7 @@
   {
     "name": "CAS CS 516: Software Foundations via Formal Languages",
     "prerequisites": [
-      "Undergraduate Prerequisites: CAS CS 320 and CAS CS 330",
-      "or equivalent courses approved by the instructor"
+      "CAS CS 320","CAS CS 330"
     ],
     "link": "https://www.bu.edu/academics/cas/courses/cas-cs-516/",
     "description": "Study of the hierarchy of formal languages with a focus on algorithms on the  formalisms. Experimentation with these algorithms using a computer toolset.  Applications of these algorithms to compiler construction, implementation of  finite-state control devices, and formal methods.",
@@ -360,21 +361,18 @@
   {
     "name": "CAS CS 519: Spark! Software Engineering X-Lab Practicum",
     "prerequisites": [
-      "Undergraduate Prerequisites: CAS CS 411",
-      "or equiv",
-      "experience in software development and consent of instructor",
-      "Consent provided upon successful completion of pass/fail diagnostictest that assesses student readiness to take the course"
+      "CAS CS 411"
     ],
     "link": "https://www.bu.edu/academics/cas/courses/cas-cs-519/",
     "description": "This course offers students in computing disciplines the opportunity to apply  their programming and system development skills by working on real-world  projects provided from partnering organizations within and outside of BU, which  are curated by Spark! The course offers a range of project options where  students can improve their technical skills, while also gaining the soft skills  necessary to deliver projects aligned to the partner's goals. These include  teamwork and communications skills and software development processes. All  students participating in the course are expected to complete a software  engineering project including a final presentation to the partner organization.",
     "consent": true,
-    "recommended": null
+    "recommended": null,
+    "Note": "Consent provided upon successful completion of pass/fail diagnostictest that assesses student readiness to take the course"
   },
   {
     "name": "CAS CS 520: Programming Languages",
     "prerequisites": [
-      "Undergraduate Prerequisites: CAS CS 320",
-      "or consent of instructor"
+      "CAS CS 320"
     ],
     "link": "https://www.bu.edu/academics/cas/courses/cas-cs-520/",
     "description": "Concepts of programming languages: data, storage, control, and definition structures; concurrent and distributed programming; functional and logic programming.",
@@ -383,7 +381,7 @@
   },
   {
     "name": "CAS CS 523: Deep Learning",
-    "prerequisites": ["Undergraduate Prerequisites: CAS CS 542"],
+    "prerequisites": ["CAS CS 542"],
     "link": "https://www.bu.edu/academics/cas/courses/cas-cs-523/",
     "description": "Mathematical and machine learning background for deep learning. Feed-forward  networks.,  Backpropagation. Training strategies for deep networks. Architectures  such as convolutional, recurrent, transformer networks. Deep reinforcement  learning. Deep unsupervised learning. Exposure to modern programming tools and  libraries. Other recent topics, time permitting.",
     "consent": false,
@@ -392,8 +390,7 @@
   {
     "name": "CAS CS 525: Compiler Design Theory",
     "prerequisites": [
-      "Undergraduate Prerequisites: CAS CS 320",
-      ", or consent of instructor"
+      "CAS CS 320"
     ],
     "link": "https://www.bu.edu/academics/cas/courses/cas-cs-525/",
     "description": "Covers the basic mathematical theory underlying the design of compilers and other language processors and shows how to use that theory in practical design situations. Topics may include lexical analysis, parsing, syntax-directed translation, code optimization, and code generation.",
@@ -403,20 +400,17 @@
   {
     "name": "CAS CS 528: Cloud Computing",
     "prerequisites": [
-      "Undergraduate Prerequisites: CAS CS 350 and CAS CS 460",
-      "or consent of instructor",
-      "CASCS455, CASCS552, and CASCS562 are recommended"
+      "CAS CS 350","CAS CS 460"
     ],
     "link": "https://www.bu.edu/academics/cas/courses/cas-cs-528/",
     "description": "Fundamentals of cloud computing covering IaaS platforms, OpenStack, key Big Data platforms, and data center scale systems. Examines influential publications in cloud computing. Culminates in a group project supervised by a mentor from industry or academia.",
     "consent": true,
-    "recommended": ["CASCS455, CASCS552, and CASCS562 are recommended"]
+    "recommended": ["CASCS455, CASCS552, and CASCS562"]
   },
   {
     "name": "CAS CS 530: Advanced Algorithms",
     "prerequisites": [
-      "Undergraduate Prerequisites: CAS CS 330",
-      "or consent of instructor"
+      "CAS CS 330"
     ],
     "link": "https://www.bu.edu/academics/cas/courses/cas-cs-530/",
     "description": "Studies the design and efficiency of algorithms in several areas of computer science. Topics are chosen  from graph algorithms, sorting and searching, NP-complete problems, pattern matching, parallel  algorithms, and dynamic programming.",
@@ -426,8 +420,7 @@
   {
     "name": "CAS CS 531: Advanced Optimization Algorithms",
     "prerequisites": [
-      "Undergraduate Prerequisites: CAS MA 123 & 124, or equivalent and CAS CS 132 or equivalent",
-      "or consent of instructor"
+      "CAS MA 123 & 124, or equivalent", "CAS CS 132 or equivalent"
     ],
     "link": "https://www.bu.edu/academics/cas/courses/cas-cs-531/",
     "description": "Optimization algorithms, highlighting the fruitful interactions between discrete and continuous.  Intended audience is advanced master students and doctoral students. Topics include gradient  descent algorithms, online optimization, linear and semidefinite programming, duality, network  optimization, submodular optimization, approximation algorithms via continuous relaxations.",
@@ -437,8 +430,7 @@
   {
     "name": "CAS CS 535: Complexity Theory",
     "prerequisites": [
-      "Undergraduate Prerequisites: CAS CS 332",
-      "or consent of instructor"
+      "CAS CS 332"
     ],
     "link": "https://www.bu.edu/academics/cas/courses/cas-cs-535/",
     "description": "Covers topics of current interest in the theory of computation chosen from computational models, games and hierarchies of problems, abstract complexity theory, informational complexity theory, time-space trade-offs, probabilistic computation, and recent work on particular combinatorial problems.",
@@ -448,21 +440,19 @@
   {
     "name": "CAS CS 537: Randomness in Computing",
     "prerequisites": [
-      "Undergraduate Prerequisites: CAS CS 330 or CAS CS 530",
-      "CASCS535 is recommended or consent of instructor"
+      "CAS CS 330 or CAS CS 530"
     ],
     "link": "https://www.bu.edu/academics/cas/courses/cas-cs-537/",
     "description": "Survey of probabilistic ideas of the theory of computation. Topics may include Monte Carlo and Las Vegas probabilistic computations; average case complexity and analysis; random and pseudorandom strings; games and cryptographic protocol; information; inductive inference; reliability;others. (Offered alternate years.)",
     "consent": true,
-    "recommended": ["CASCS535 is recommended or consent of instructor"]
+    "recommended": ["CASCS535"]
   },
   {
     "name": "CAS CS 538: Fundamentals of Cryptography",
     "prerequisites": [
-      "Undergraduate Prerequisites: CAS CS 131",
+      "CAS CS 131",
       "CAS CS 237",
-      "CAS CS 357",
-      "or consent of instructor"
+      "CAS CS 357"
     ],
     "link": "https://www.bu.edu/academics/cas/courses/cas-cs-538/",
     "description": "Basic Algorithms to guarantee confidentiality and authenticity of data.  Definitions and proofs of security for practical constructions.  Topics include perfectly secure encryption, pseudorandom generators, RSA and Elgamal encryption, Diffie-Hellman key agreement, RSA signatures, secret sharing, block and stream ciphers.",
@@ -471,7 +461,7 @@
   },
   {
     "name": "CAS CS 542: Principles of Machine Learning",
-    "prerequisites": ["Undergraduate Prerequisites: CAS CS 365"],
+    "prerequisites": ["CAS CS 365"],
     "link": "https://www.bu.edu/academics/cas/courses/cas-cs-542/",
     "description": "Introduction  to modern machine learning concepts, techniques, and algorithms.  Topics  include regression,  kernels, support vector machines, feature selection,  boosting, clustering,  hidden Markov  models, and Bayesian networks. Programming  assignments emphasize taking  theory into  practice, through applications on  real-world data sets.",
     "consent": false,
@@ -479,19 +469,17 @@
   },
   {
     "name": "CAS CS 543: Algorithmic Techniques for Taming Big Data",
-    "prerequisites": [
-      "Undergraduate Prerequisites: exposure to basic data structures and algorithms or consent of instructor"
-    ],
+    "prerequisites": null,
     "link": "https://www.bu.edu/academics/cas/courses/cas-cs-543/",
     "description": "Growing amounts of available data lead to significant challenges in processing   them efficiently. In many cases, it is no longer possible to design feasible   algorithms that can freely access the entire data set. Instead of that we often   have to resort to techniques that allow for reducing the amount of data such as   sampling, sketching, dimensionality reduction, and core sets. Also explores   scenarios in which large data sets are distributed across several machines or   even geographical locations and the goal is to design efficient communication   protocols or MapReduce algorithms. Includes a final project and programming   assignments in which we explore the performance of our techniques when applied   to publicly available data sets.  Effective Fall 2021, this course fulfills a  single unit in each of the following BU Hub areas: Quantitative Reasoning II,  Creativity/Innovation.",
     "consent": true,
-    "recommended": null
+    "recommended": null,
+    "Note": "exposure to basic data structures and algorithms or consent of instructor"
   },
   {
     "name": "CAS CS 548: Advanced Cryptography",
     "prerequisites": [
-      "Undergraduate Prerequisites: CAS CS 538",
-      "or consent of instructor"
+      "CAS CS 538"
     ],
     "link": "https://www.bu.edu/academics/cas/courses/cas-cs-548/",
     "description": "Continuation of CAS CS 538.  Advanced techniques to preserve confidentiality and authenticity against active attacks, zero-knowledge proofs; Fiat-Shamir signature schemes; non-malleable public-key encryption; authenticated symmetric encryption; secure multiparty protocols for tasks ranging from Byzantine agreement to mental poker to threshold cryptography.",
@@ -501,20 +489,21 @@
   {
     "name": "CAS CS 549: Spark! Machine Learning X-Lab Practicum",
     "prerequisites": [
-      "Undergraduate Prerequisites: CAS CS 505 or CAS CS 542 or CAS CS 585",
-      "or consent of instructor",
-      "Consent provided upon successful completionof pass/fail diagnostic test that will assess student readiness to take the course"
+      "CAS CS 505 or CAS CS 542 or CAS CS 585"
     ],
     "link": "https://www.bu.edu/academics/cas/courses/cas-cs-549/",
     "description": "The Spark! Practicum offers students in computing disciplines the opportunity to  apply their knowledge in algorithms, inferential analytics, and software  development by working on real-world projects provided from partnering  organizations within BU and from outside. The course offers a range of project  options where students can improve their technical skills, while also gaining  the soft skills necessary to deliver projects aligned to the partner's goals.  These include teamwork and communications skills and software development  processes. All students participating in the course are expected to complete a  project focused on an application of inferential analytics or machine learning,  including a final presentation to the partner organization.",
     "consent": true,
-    "recommended": null
+    "recommended": null,
+    "Note":"Consent provided upon successful completionof pass/fail diagnostic test that will assess student readiness to take the course"
   },
   {
     "name": "CAS CS 551: Streaming and Event-driven Systems",
     "prerequisites": [
-      "Undergraduate Prerequisites: CAS CS 112 and CAS CS 210",
-      "CAS CS 451 and CAS CS 460 or consent of instructor"
+      "CAS CS 112", 
+      "CAS CS 210",
+      "CAS CS 451",
+      "CAS CS 460"
     ],
     "link": "https://www.bu.edu/academics/cas/courses/cas-cs-551/",
     "description": "Fundamentals of stream processing and event-driven systems. Topics include Pub/Sub  systems; Distributed streaming systems; Dataflow programming; Fault-tolerance and  processing guarantees; State management; Windowing semantics; Complex event  processing; Microservice architectures; Serverless functions; Examines current and  emerging architectures and use-cases.",
@@ -524,8 +513,7 @@
   {
     "name": "CAS CS 558: Computer Networks Security",
     "prerequisites": [
-      "Undergraduate Prerequisites: CAS CS 357",
-      "or consent of instructor"
+      "CAS CS 357"
     ],
     "link": "https://www.bu.edu/academics/cas/courses/cas-cs-558/",
     "description": "This course covers securing core internet infrastructure protocols and  constructing secure, private, and censorship-free communications on the modern  internet. Topics include BGP, ARP, DNS, TLS, censorship-resistant systems like  Tor, end-to-end secure messaging, metadata protection, and trusted execution  environments.",
@@ -535,7 +523,8 @@
   {
     "name": "CAS CS 561: Data Systems Architectures",
     "prerequisites": [
-      "Undergraduate Prerequisites: CAS CS 210 or equivalent and CAS CS 460/660"
+      "CAS CS 210 or equivalent"
+      ,"CAS CS 460/660"
     ],
     "link": "https://www.bu.edu/academics/cas/courses/cas-cs-561/",
     "description": "Discusses the design of data systems that can address the modern challenges  of managing and accessing large, ever-growing, diverse sets of data, often  streaming from heterogenous sources, in the context of continuously evolving  hardware and software. We use examples from several data management areas  including relational systems, distributed database systems, key value  stores, newSQL and NoSQL systems, data systems for machine learning (and  machine learning for data systems), interactive analytics, and data  management as a service.  Effective Spring 2021, this course fulfills a  single unit in each of the following BU Hub areas: Oral and/or Signed  Communication, Research and Information Literacy.",
@@ -545,7 +534,7 @@
   {
     "name": "CAS CS 565: Algorithmic Data Mining",
     "prerequisites": [
-      "Undergraduate Prerequisites: CAS CS 112",
+      "CAS CS 112",
       "CAS CS 330",
       "CAS CS 365"
     ],
@@ -557,35 +546,36 @@
   {
     "name": "CAS CS 581: Computational Fabrication",
     "prerequisites": [
-      "Undergraduate Prerequisites: CAS CS 112 and CAS CS 132 or CAS MA 242",
-      "CAS 480/GRS CS 680 recommended"
+      "CAS CS 112",
+      "CAS CS 132 or CAS MA 242"
     ],
     "link": "https://www.bu.edu/academics/cas/courses/cas-cs-581/",
     "description": "Introduces 3D printing technology and computational methods for creating physical prototypes  from geometric models. Student-led paper presentations cover research from prominent  Computer Graphics and Human Computer Interaction conferences. Culminates in a design  project involving a computational component and physical prototyping.",
     "consent": false,
-    "recommended": ["CAS 480/GRS CS 680 recommended"]
+    "recommended": ["CAS 480/GRS CS 680"]
   },
   {
     "name": "CAS CS 583: Audio Computation",
     "prerequisites": [
-      "Undergraduate Prerequisites: CAS CS 112",
-      "and understanding of physics equivalent to CAS PY 105"
+      "CAS CS 112"
     ],
     "link": "https://www.bu.edu/academics/cas/courses/cas-cs-583/",
     "description": "Introduction to algorithms, data structures, and applications in computer  manipulation of audio signals. Topics include the physical properties of sound  and of musical instruments, representation and synthesis of musical and  environmental sounds, analysis of audio signals using the Fourier Transform, and  topics of current interest in research, including the use of deep learning for  analysis of audio signals. Effective Fall 2021, this course fulfills a single  unit in each of  the following BU Hub areas: Scientific Inquiry II,  Creativity/Innovation.",
     "consent": false,
-    "recommended": null
+    "recommended": null,
+    "Note":"understanding of physics equivalent to CAS PY 105"
   },
   {
     "name": "CAS CS 585: Image and Video Computing",
     "prerequisites": [
-      "Undergraduate Prerequisites: CAS CS 132 or CAS MA 242",
-      "and CASCS112 or equivalent programming experience and familiarity with calculus"
+      "CAS CS 132 or CAS MA 242",
+      "CASCS112"
     ],
     "link": "https://www.bu.edu/academics/cas/courses/cas-cs-585/",
     "description": "Introduction to images and video as multimedia data types and algorithms for image and video understanding based on color, shading, stereo, and motion. Topics include face recognition, human-computer interfaces, animal and vehicle tracking, and medical image analysis.",
     "consent": false,
-    "recommended": null
+    "recommended": null,
+    "Note": "equivalent programming experience and familiarity with calculus"
   },
   {
     "name": "CAS CS 599: Advanced Topics in Computer Science",
